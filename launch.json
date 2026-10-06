@@ -1,0 +1,10 @@
+{
+  "kind": "evm_contracts",
+  "contracts": [
+    {
+      "contract": "MemecoinCemetery",
+      "constructorArgs": []
+    }
+  ],
+  "notes": "MemecoinCemetery is the sole application contract, intended for Ethereum mainnet, with no constructor arguments or initialization calls. Anyone may open a 30-day wake for an ERC-20 with an epitaph of at most 140 bytes. During the wake, a holder of at least 0.1% of the current nonzero total supply may cancel burial, starting a 30-day re-dig cooldown. After an unopposed wake ends, anyone may seal a permanent grave. Token supply and balance reads use try/catch; failed reads reject digging or objections. The contract has no application token, fees, owner, upgrade mechanism or payable entry points and requires no ETH funding."
+}
